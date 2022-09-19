@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Scootrent</title>
+</head>
+
+<body>
+
+    @@include('./blocks/header.html')
+
+    <div class="rent section fb">
+        <div class="container">
+            <div class="rent_wrap">
+                <div class="info p gray">
+                    <div class="discount">
+                        <i class="bi bi-brightness-high"></i>
+                        30% discount on the first rental
+                    </div>
+                    <div class="title">Rent a Scooter Hourly or Full Day</div>
+                    <div class="search">
+                        <div class="search_text">
+                            Find the nearest scooter at your location
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
+                        <button class="btn"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./img/rent-scooters.jpg" alt="" id="rent1">
+                    <img src="./img/rent-scooters2.jpg" alt="" id="rent2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offers section">
+        <div class="container">
+            <div class="offers_wrap">
+                <div class="info p">
+                    <div class="title">What are we offering to you?</div>
+                </div>
+                <div class="info p gray">
+                    <div class="offer">
+                        <div class="offer_title">Scooters</div>
+                        <div class="sm_text">We will help you choose a scooter</div>
+                    </div>
+                    <div class="offer">
+                        <div class="offer_title">Application</div>
+                        <div class="sm_text">Convinient mobile app is ready and free for download</div>
+                    </div>
+                    <div class="offer">
+                        <div class="offer_title">Repair Service</div>
+                        <div class="sm_text">Scooter Repair, battery replacement andwheel infiation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app section">
+        <div class="container">
+            <div class="app_wrap">
+                <div class="image">
+                    <img src="./img/app-section.jpg" alt="" id="app">
+                </div>
+                <div class="info p">
+                    <div class="title">Use our mobile App to pick up a scooter</div>
+                    <div class="btn_field">
+                        <button class="btn app_btn"><i class="bi bi-apple"></i> App Store</button>
+                        <button class="btn"><i class="bi bi-google-play"></i> Google App</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="community section">
+        <div class="container">
+            <div class="community_wrap">
+                <div class="info p">
+                    <div class="title">Join our community</div>
+                    <p class="text">Join out community, which is open for everyone. Get some benefits of being a part of
+                        us, learn
+                        more about discounts, great deals for community members</p>
+                    <button class="btn">Join community</button>
+                </div>
+                <div class="image">
+                    <img src="./img/community-photo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="review section">
+        <div class="container">
+            <div class="review_wrap">
+                <div class="info gray p">
+                    <div class="title">Interesting opinion from customers</div>
+
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider_item">
+                                    <div class="author">
+                                        <div class="author_img">
+                                            <img src="./img/review-authors/review-author1.jpg" alt="">
+                                        </div>
+                                        <div class="author_name">Sasha</div>
+                                    </div>
+                                    <div class="author_review">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima possimus, vel
+                                        dolore saepe aperiam perferendis hic ex alias eveniet ad quod dolores?
+                                        Dignissimos assumenda vel, fuga rem odit quibusdam deleniti.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider_item">
+                                    <div class="author">
+                                        <div class="author_img">
+                                            <img src="./img/review-authors/review-author2.jpg" alt="">
+                                        </div>
+                                        <div class="author_name">John</div>
+                                    </div>
+                                    <div class="author_review">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima possimus, vel
+                                        dolore saepe aperiam perferendis hic ex alias eveniet ad quod dolores?
+                                        Dignissimos assumenda vel, fuga rem odit quibusdam deleniti.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slider_item">
+                                    <div class="author">
+                                        <div class="author_img">
+                                            <img src="./img/review-authors/review-author5.jpg" alt="">
+                                        </div>
+                                        <div class="author_name">Lize</div>
+                                    </div>
+                                    <div class="author_review">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima possimus, vel
+                                        dolore saepe aperiam perferendis hic ex alias eveniet ad quod dolores?
+                                        Dignissimos assumenda vel, fuga rem odit quibusdam deleniti.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="swiper-slide">
+                                <div class="slider_item">
+                                    <div class="author">
+                                        <div class="author_img">
+                                            <img src="./img/review-authors/review-author3.jpg" alt="">
+                                        </div>
+                                        <div class="author_name">Peter</div>
+                                    </div>
+                                    <div class="author_review">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima possimus, vel
+                                        dolore saepe aperiam perferendis hic ex alias eveniet ad quod dolores?
+                                        Dignissimos assumenda vel, fuga rem odit quibusdam deleniti.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="slider_item">
+                                    <div class="author">
+                                        <div class="author_img">
+                                            <img src="./img/review-authors/review-author4.jpg" alt="">
+                                        </div>
+                                        <div class="author_name">Annette</div>
+                                    </div>
+                                    <div class="author_review">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima possimus, vel
+                                        dolore saepe aperiam perferendis hic ex alias eveniet ad quod dolores?
+                                        Dignissimos assumenda vel, fuga rem odit quibusdam deleniti.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="arrow_field">
+                        <div class="swiper-button-prev-unique">
+                            <i class="bi bi-chevron-left"></i>
+                        </div>
+                        <div class="swiper-button-next-unique">
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('./blocks/menu.html')
+
+    @@include('./blocks/footer.html')
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

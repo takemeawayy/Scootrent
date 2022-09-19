@@ -1,0 +1,11 @@
+.app_wrap {
+    @apply flex flex-col lg:flex-row;
+
+    .title {
+        @apply mb-10;
+    }
+
+    .btn_field {
+        @apply flex gap-6;
+    }
+}

@@ -1,0 +1,168 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    @apply text-darkGray;
+}
+
+.container {
+    @apply max-w-7xl w-full mx-auto;
+}
+
+.btn {
+    @apply bg-darkGray text-white py-1 px-2 sm:py-2 sm:px-4 transition-colors;
+
+    &:hover {
+        @apply bg-passiveGray;
+    }
+
+}
+
+.sm_text {
+    @apply text-sm;
+
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.image {
+    @apply w-full relative h-auto sm:h-80 lg:h-auto lg:w-1/2 overflow-hidden;
+
+    img {
+        @apply sm:absolute sm:top-1/2 sm:left-1/2 lg:relative;
+
+        transform: translate3d(-50%, -50%, 0);
+
+    }
+
+    #rent1 {
+        @apply block sm:hidden lg:block
+    }
+
+    #rent2 {
+        @apply hidden sm:block lg:hidden
+    }
+
+    #app {
+        @apply hidden sm:block
+    }
+}
+
+@media (min-width: 640px) {
+
+    .image {
+        img {
+            transform: translate3d(-50%, -50%, 0);
+        }
+    }
+}
+
+@media (min-width: 1024px) {}
+.image img {
+    transform: none;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    @apply w-full lg:w-1/2;
+}
+
+.title {
+    @apply text-3xl sm:text-5xl font-semibold;
+}
+
+.image.full {
+    @apply w-full;
+}
+
+.section {
+    @apply  py-4 sm:py-8;
+}
+
+@media only screen and (max-width: 1280px) {
+    .header .logo {
+        @apply ml-4;
+    }
+
+    .join_btn {
+        @apply mr-4;
+    }
+}
+
+.burger {
+
+    @apply relative flex md:hidden justify-center items-center w-[30px] h-[30px] cursor-pointer mr-4;
+
+    transition: all .5s ease-in-out;
+}
+
+.burger_btn {
+
+    @apply w-[30px] h-[3px] bg-black rounded;
+
+    transition: all .5s ease-in-out;
+
+    &::after,
+    &::before {
+
+        @apply absolute w-[30px] h-[3px] bg-black rounded;
+
+        content: '';
+        transition: all .5s ease-in-out;
+    }
+
+    &::before {
+        transform: translateY(-8px);
+    }
+
+    &::after {
+        transform: translateY(8px);
+    }
+}
+
+.burger.open {
+
+    .burger_btn {
+        transform: translateX(-25px);
+        background: transparent;
+
+        &::after {
+            transform: rotate(-45deg) translate(18px, 18px);
+        }
+
+        &::before {
+            transform: rotate(45deg) translate(18px, -18px);
+        }
+    }
+}
+
+.menu {
+    @apply h-screen w-full sm:w-1/2 top-0 fixed z-20 pt-[132px] text-white bg-darkGray;
+
+    .nav_list {
+
+        @apply flex flex-col items-center gap-4;
+
+        .nav_link {
+            @apply text-2xl;
+        }
+    }
+
+    .join_btn {
+        @apply block bg-white text-darkGray mr-0 text-lg;
+    }
+
+    transition: transform 1s ease-in-out;
+    transform: translateX(-200%);
+}
+
+.menu.open {
+    @apply z-20 ;
+
+    transform: translateX(0);
+}
+
+.fb {
+    @apply pt-[100px] md:pt-0;
+}
+
+
+/*  */

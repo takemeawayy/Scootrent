@@ -1,0 +1,48 @@
+.review_wrap {
+
+    .info.gray.p {
+        @apply w-full;
+    }
+
+    .title {
+        @apply mb-14;
+    }
+
+    .swiper {
+        @apply w-full h-[350px] sm:h-96 mx-auto;
+
+        .swiper-slide {
+
+            @apply p-5;
+        }
+    }
+
+    .slider_item {
+        @apply bg-white h-full w-full text-darkGray p-3 md:p-8;
+
+        .author {
+            @apply flex gap-5 items-center mb-6;
+        }
+
+        .author_img {
+            @apply w-[50px] h-[50px] rounded-full;
+
+            img {
+                @apply rounded-full;
+            }
+        }
+    }
+}
+
+.arrow_field {
+    @apply flex gap-5 justify-center pb-4 sm:pb-0 sm:justify-end sm:pr-5;
+
+    .swiper-button-prev-unique,
+    .swiper-button-next-unique {
+        @apply text-passiveGray bg-darkGray text-3xl p-3 md:p-5 transition-colors flex justify-center items-center;
+
+        &:hover {
+            @apply text-white
+        }
+    }
+}

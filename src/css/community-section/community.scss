@@ -1,0 +1,11 @@
+.community_wrap {
+    @apply flex flex-col lg:flex-row;
+
+    .title {
+        @apply mb-4;
+    }
+
+    .text {
+        @apply mb-6;
+    }
+}

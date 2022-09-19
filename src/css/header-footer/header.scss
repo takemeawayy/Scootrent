@@ -1,0 +1,31 @@
+.header {
+    @apply fixed md:relative max-w-7xl w-full mx-auto flex justify-between items-center py-4 md:py-8 z-50 bg-white;
+
+    .nav_list {
+        @apply hidden md:flex gap-8;
+
+        .nav_link {
+            @apply text-anotherGray transition-colors text-lg;
+
+            &:hover {
+                @apply text-darkGray
+            }
+        }
+    }
+}
+
+.header.fix {
+    @apply fixed;
+}
+
+.logo {
+    @apply text-3xl font-semibold text-darkGray transition-colors;
+
+    &:hover {
+        @apply text-black;
+    }
+}
+
+.join_btn {
+    @apply hidden md:block;
+}

@@ -1,0 +1,11 @@
+.offers_wrap {
+    @apply flex flex-col lg:flex-row;
+
+    .offer {
+        @apply mb-4;
+    }
+
+    .offer_title {
+        @apply text-xl sm:text-3xl mb-2;
+    }
+}

@@ -1,0 +1,40 @@
+.title.heading {
+    @apply text-center border-b border-solid pb-4;
+}
+
+.blog_wrap {
+    @apply flex flex-wrap;
+
+    .blog_item {
+        @apply w-full sm:w-1/2 lg:w-1/4 my-5 text-center p-2 lg:p-0;
+
+        .blog_image {
+            @apply w-full max-h-36 mb-3;
+
+            img {
+                @apply max-h-36 mx-auto;
+            }
+        }
+
+        .blog_title {
+            @apply text-lg font-bold;
+        }
+
+        .blog_text {
+            @apply mb-4 md:max-w-xs md:mx-auto lg:max-w-none lg:m-0;
+        }
+
+        .read_btn {
+            @apply mb-4
+        }
+    }
+
+}
+
+.load_field {
+    @apply text-center border-t border-solid pt-4;
+}
+
+.load_btn {
+    @apply text-lg;
+}

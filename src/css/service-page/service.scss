@@ -1,0 +1,45 @@
+.service_wrap {
+    @apply flex flex-col;
+
+    .service_item {
+        @apply flex;
+
+        .image {
+            @apply hidden lg:block;
+        }
+
+        .info {
+            @apply text-center lg:text-start
+        }
+    }
+
+    .title {
+        @apply mb-6;
+    }
+
+    .price {
+        @apply text-3xl underline mb-5;
+
+        &::after {
+            content: '/hour';
+            @apply text-lg;
+        }
+    }
+}
+
+
+.service_item.reverse {
+    @apply flex-row-reverse;
+}
+
+.price_wrap {
+    @apply flex flex-col items-center lg:items-start gap-4 mb-5;
+
+    .hid_img {
+        @apply max-w-md lg:hidden block;
+
+        img {
+            @apply max-h-80
+        }
+    }
+}

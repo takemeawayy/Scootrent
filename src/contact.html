@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Scootrent</title>
+</head>
+
+<body>
+
+    @@include('./blocks/header.html')
+
+    <div class="container fb">
+        <div class="contact_wrap">
+            <div class="info p gray">
+                <div class="title">Contact Us</div>
+                <div class="sm_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam totam libero inventore in, soluta
+                    accusantium animi commodi enim iste modi iure ab debitis quaerat illum aut laboriosam repudiandae
+                    deserunt sint?
+                </div>
+                <div class="links">
+                    <div class="link">
+                        <i class="bi bi-geo-alt"></i>
+                        <a href="#">72 Illinois Street Arvada, CO 80003</a>
+                    </div>
+                    <div class="link">
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:+(522) 777-6042">+(522) 777-6042</a>
+                    </div>
+                    <div class="link">
+                        <i class="bi bi-mailbox"></i>
+                        <a href="mailto:info@mail.com">info@mail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="info p">
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Name..." name="name" id="name" class="form_input">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email..." class="form_input">
+                    <label for="area">Message:</label>
+                    <textarea name="area" id="area" cols="30" rows="10"
+                        class="form_input">Write your message here, please!</textarea>
+                    <input type="submit" value="Submit" class="btn submit_btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @@include('./blocks/menu.html')
+
+    @@include('./blocks/footer.html')
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

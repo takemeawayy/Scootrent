@@ -1,0 +1,43 @@
+.rent_wrap {
+    @apply flex flex-col lg:flex-row;
+
+    .discount {
+        @apply mb-5;
+    }
+
+    .title {
+        @apply mb-7;
+    }
+
+    .search {
+        @apply flex justify-between items-center;
+
+        .search_text {
+            @apply text-xl sm:text-2xl flex items-center gap-4;
+
+            i {
+
+                @apply hidden sm:block;
+
+                animation: 1s leftRight infinite;
+            }
+        }
+    }
+}
+
+@keyframes leftRight {
+    0%,100% {
+        transform: translateX(0);
+    } 
+    50% {
+        transform: translate(5px);
+    }
+}
+
+.info.p {
+    @apply p-2 sm:p-8;
+}
+
+.info.gray {
+    @apply bg-passiveGray text-white;
+}

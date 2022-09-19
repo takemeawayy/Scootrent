@@ -1,0 +1,35 @@
+.contact_wrap {
+    @apply flex flex-col md:flex-row;
+
+    form {
+
+        @apply flex flex-col;
+
+        .form_input {
+            @apply border border-solid border-black p-1;
+        }
+        
+        textarea {
+            @apply border border-solid border-black max-h-80 min-h-[180px];
+        }
+    }
+}
+
+.submit_btn {
+    @apply mt-5 w-36 mx-auto uppercase;
+}
+
+.link {
+    @apply flex items-center gap-4 my-4;
+
+    i {
+        @apply text-darkGray
+    }
+
+    a {
+        &:hover {
+            @apply underline;
+        }
+    }
+}
+

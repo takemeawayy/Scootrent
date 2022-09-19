@@ -1,0 +1,43 @@
+.footer {
+    @apply max-w-7xl w-full mx-auto flex bg-[#F8F8FA] py-10 md:p-10 my-10 flex-wrap mb-0 md:mb-10;
+
+    .f_info {
+        @apply w-full md:w-2/5 lg:w-1/4 text-center mb-4     md:text-start md:mb-0 ;
+    }
+
+    .logo {
+        @apply mb-3;
+    }
+
+    .sm_text {
+        @apply mb-4 max-w-[200px] text-passiveGray mx-auto md:m-0;
+    }
+
+    .social {
+        @apply flex gap-4 justify-center md:justify-start;
+
+        .soc_icon {
+            @apply w-7 h-7 bg-[#B5BAC2] text-white text-center pt-1 transition-colors;
+
+            &:hover {
+                @apply text-darkGray;
+            }
+        }
+    }
+
+    ul {
+        @apply text-center md:w-1/5 lg:text-start lg:w-1/4 mx-auto;
+
+        li {
+            @apply my-2 text-darkGray;
+
+            a {
+                @apply inline-block;
+
+                &:hover {
+                    @apply underline;
+                }
+            }
+        }
+    }
+}
