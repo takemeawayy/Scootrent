@@ -44,7 +44,7 @@ Preview of each page
 
 ![scooterAbout](https://user-images.githubusercontent.com/106681495/192537768-b0d7f1f0-56cf-4e40-b364-676342575fd3.png)
 
-## Servie page
+## Service page
 
 ![scooterService](https://user-images.githubusercontent.com/106681495/192537798-cda8d30d-2463-4a66-8189-86f63e32c359.png)
 
