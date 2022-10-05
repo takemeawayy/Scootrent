@@ -21,7 +21,8 @@ Multi-Page Scooter Rent Company Website
 — A Contact page from which you can contact online support.
 </p>
 
-This page is fully adaptive and comperable with any device!
+This page is fully adaptive and comperable with any device! </br>
+Demo: https://takemeawayy.github.io/Scootrent/build/index.html
 
 ### Here's what I used in developing this project:
 
