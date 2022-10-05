@@ -10,7 +10,7 @@
     }
 
     .sm_text {
-        @apply mb-4 max-w-[200px] text-passiveGray mx-auto md:m-0;
+        @apply mb-4 max-w-[200px] text-passiveGray mx-auto md:mx-0 md:mb-2;
     }
 
     .social {
